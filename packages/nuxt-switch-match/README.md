@@ -1,24 +1,17 @@
-# Nuxt Switch Match
+# Vue Switch Match
 
-Pattern Matching Switch Match Component for Nuxt. Inspired by Solid.js
+[![CI](https://github.com/Hebilicious/vue-switch-match/actions/workflows/ci.yaml/badge.svg)](https://github.com/Hebilicious/vue-switch-match/actions/workflows/ci.yaml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Installation
+🚀 Pattern Matching Switch Match Component for Vue and Nuxt. Inspired by Solid.js
+
+## 📦 Installation
 
 ```bash
-pnpm i @hebilicious/nuxt-switch-match
+pnpm i @hebilicious/vue-switch-match
 ```
 
-Then edit your nuxt.config.ts :
-
-```ts
-export default defineNuxtConfig({
-	modules: ["@hebilicious/nuxt-switch-match"]
-})
-```
-
-## Usage
-
-The module will auto-import the components.
+## 🚀 Usage
 
 ```vue
 <script lang="ts" setup>
@@ -40,18 +33,18 @@ const swap = () => {
 </template>
 ```
 
-## Options
+## 📦 Contributing
 
-Pass the following options :
+Contributions, issues and feature requests are welcome!
 
-```ts
-export default defineNuxtConfig({
-	modules: ["@hebilicious/nuxt-switch-match"],
-	nuxtSwitchMatch: {
-		customPrefix: "My",
-		switchName: "Switch",
-		matchName: "Match",
-		fallbackName: "Fallback"
-	}
-})
-```
+1. Fork this repo
+
+2. [Install `bun`.](https://bun.sh/docs/installation)
+
+3. Intall pnpm `corepack enable && pnpm corepack use pnpm@latest`
+
+4. Use `pnpm i` at the mono-repo root.
+
+5. Make modifications and follow conventional commits.
+
+6. Open a PR 🚀🚀🚀

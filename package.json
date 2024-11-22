@@ -4,7 +4,8 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"build": "rimraf packages/*/dist && cd packages/nuxt-switch-match && bun run build",
+		"build": "lage build --scope '@hebilicious/vue-switch-match' '@hebilicious/nuxt-switch-match' --no-deps",
+		"build:all": "lage build",
 		"format": "dprint check --verbose",
 		"format:fix": "dprint fmt --verbose",
 		"docs:dev": "cd docs && vitepress dev",
@@ -13,7 +14,8 @@
 		"prepare:types": "cd packages/nuxt-switch-match && nuxi prepare",
 		"typecheck": "cd packages/nuxt-switch-match && tsc --noEmit",
 		"test": "vitest",
-		"publish:ci": "pnpm -r publish --access public --no-git-checks",
+		"version": "changeset version && bun run format:fix",
+		"publish:all": "pnpm run build && pnpm publish -r",
 		"test:all": "bun run lint && bun run typecheck && bun run vitest run"
 	},
 	"devDependencies": {
@@ -21,8 +23,8 @@
 		"@changesets/cli": "^2.27.10",
 		"@nuxt/test-utils": "^3.14.4",
 		"@types/node": "^22.9.1",
-		"bumpp": "^9.8.1",
 		"dprint": "^0.47.5",
+		"lage": "^2.11.15",
 		"lint-staged": "^15.2.10",
 		"rimraf": "^6.0.1",
 		"simple-git-hooks": "^2.11.1",
