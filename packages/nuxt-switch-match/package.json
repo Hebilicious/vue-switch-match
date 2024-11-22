@@ -28,10 +28,8 @@
 	"types": "./dist/types.d.ts",
 	"files": ["dist", "*.d.ts", "*.cjs", "*.mjs"],
 	"scripts": {
-		"readme": "bun scripts/readme.ts",
 		"prebuild": "bun postinstall",
 		"postinstall": "nuxi prepare",
-		"postbuild": "bun readme",
 		"build:stub": "nuxt-build-module --stub",
 		"build:module": "nuxt-build-module",
 		"build": "rimraf dist && bun build:module",
