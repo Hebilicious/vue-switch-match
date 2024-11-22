@@ -18,6 +18,6 @@ export default defineConfig({
 			}
 		],
 
-		socialLinks: [{ icon: "github", link: "https://github.com/Hebilicious/nuxt-module-template" }]
+		socialLinks: [{ icon: "github", link: "https://github.com/Hebilicious/nuxt-switch-match" }]
 	}
 })

@@ -17,7 +17,7 @@ jobs:
 
       - uses: ./.github/workflows/actions/install
         with:
-          install: nuxt-module-template
+          install: nuxt-switch-match
           
       - name: Format
         run: bun run format

@@ -19,7 +19,7 @@ jobs:
 
       - uses: ./.github/workflows/actions/install
         with:
-          install: nuxt-module-template
+          install: nuxt-switch-match
           
       - run: bun x changelogithub
         continue-on-error: false

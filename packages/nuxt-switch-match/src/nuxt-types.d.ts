@@ -1,10 +1,11 @@
+import { configKey } from "./config"
 import type { ModuleOptions } from "./module"
 
 declare module "@nuxt/schema" {
 	interface RuntimeConfig {
-		"my-module": ModuleOptions
+		[configKey]: ModuleOptions
 	}
 	interface PublicRuntimeConfig {
-		"my-module": ModuleOptions
+		[configKey]: ModuleOptions
 	}
 }

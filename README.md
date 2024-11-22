@@ -1,38 +1,37 @@
-# ⚗️ Nuxt Module Template
+# Vue Switch Match
 
-[![CI](https://github.com/Hebilicious/nuxt-module-template/actions/workflows/ci.yaml/badge.svg)](https://github.com/Hebilicious/nuxt-module-template/actions/workflows/ci.yaml)
+[![CI](https://github.com/Hebilicious/vue-switch-match/actions/workflows/ci.yaml/badge.svg)](https://github.com/Hebilicious/vue-switch-match/actions/workflows/ci.yaml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-🚀 Welcome to **Hebilicious Nuxt Module Starter Template**!
-
-This is a Pnpm and Bun powered Nuxt Module Repo Template Starter.
-It comes with a base module that you can use to start your own module.
-
-## Batteries Included
-
-- 📦 pnpm monorepo
-- 📦 Bun script runner
-- 🏗️ Build Nuxt Module with `nuxt-build-module`
-- 🏗 ESM/CJS valid package, with MTS and CTS declaration files.
-- 📝 Docs with vitepress
-- ✅ Tests with vitest
-- 🔨 Publish with pnpm
-- 🔄 CI with Github Actions and bun
-- 🚀 Trigger NPM release + changelog from CLI
-- 📏 Conventional commits
-- 🔄 Renovate config
+🚀 Pattern Matching Switch Match Component for Vue and Nuxt. Inspired by Solid.js
 
 ## 📦 Installation
 
-Use [pnpm](https://pnpm.io/installation#using-corepack) and [bun](https://bun.sh/docs/installation) for module development :
-
 ```bash
-pnpm i
+pnpm i @hebilicious/vue-switch-match
 ```
 
-## 🚀 Getting Started
+## 🚀 Usage
 
-Do a search and replace for `@hebilicious/nuxt-module-template` and `nuxt-module-template` and replace with your scope and module name.
+```vue
+<script lang="ts" setup>
+const state = ref(0);
+const swap = () => {
+  const newValue = state.value === 0 ? 1 : 0;
+  state.value = newValue;
+};
+</script>
+
+<template>
+  <button @click="swap">Click Me !</button>
+  <button @click="state = 2">Fallback</button>
+  <Switch>
+    <Match :when="state === 0">Hello</Match>
+    <Match :when="state === 1">World</Match>
+    <Fallback>Bye</Fallback>
+  </Switch>
+</template>
+```
 
 ## 📦 Contributing
 

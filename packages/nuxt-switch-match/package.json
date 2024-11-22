@@ -1,5 +1,5 @@
 {
-	"name": "@hebilicious/nuxt-module-template",
+	"name": "@hebilicious/nuxt-switch-match",
 	"type": "module",
 	"version": "0.0.0",
 	"author": {
@@ -8,7 +8,7 @@
 		"url": "https://twitter.com/its_hebilicious"
 	},
 	"license": "MIT",
-	"repository": "Hebilicious/nuxt-module-template",
+	"repository": "Hebilicious/nuxt-switch-match",
 	"exports": {
 		".": {
 			"require": {
@@ -38,16 +38,15 @@
 		"dev": "nuxi dev"
 	},
 	"peerDependencies": {
-		"nuxt": "^3.14",
-		"vite": "*"
+		"@hebilicious/vue-switch-match": "workspace:^"
 	},
 	"dependencies": {
+		"@hebilicious/vue-switch-match": "workspace:^",
 		"@nuxt/kit": "^3.14.1592",
 		"defu": "^6.1.4"
 	},
 	"devDependencies": {
 		"@nuxt/module-builder": "^0.8.4",
-		"h3": "^1.13.0",
 		"nuxt": "^3.14.1592",
 		"unbuild": "^2.0.0"
 	}

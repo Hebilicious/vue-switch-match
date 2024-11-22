@@ -1,5 +1,5 @@
 {
-	"name": "@hebilicious/nuxt-module-template_playground",
+	"name": "@hebilicious/vue-switch-match_playground",
 	"private": true,
 	"scripts": {
 		"build": "NITRO_PRESET=cloudflare_pages nuxt build",
@@ -8,6 +8,8 @@
 		"preview": "nuxt preview"
 	},
 	"devDependencies": {
+		"@hebilicious/nuxt-switch-match": "workspace:^",
+		"@hebilicious/vue-switch-match": "workspace:^",
 		"@nuxt/devtools": "^1.6.1",
 		"nuxt": "^3.14.1592"
 	}
