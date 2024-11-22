@@ -13,7 +13,7 @@
 		"prepare:types": "cd packages/nuxt-switch-match && nuxi prepare",
 		"typecheck": "cd packages/nuxt-switch-match && tsc --noEmit",
 		"test": "vitest",
-		"publish:ci": "pnpm -r publish --access public --no-git-checks",
+		"publish:all": "pnpm run build && pnpm publish -r",
 		"test:all": "bun run lint && bun run typecheck && bun run vitest run"
 	},
 	"devDependencies": {
