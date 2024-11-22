@@ -1,7 +1,7 @@
 {
 	"name": "@hebilicious/nuxt-switch-match",
 	"type": "module",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"author": {
 		"name": "Hebilicious",
 		"email": "xsh4k3@gmail.com",
@@ -26,7 +26,12 @@
 	"main": "./dist/module.cjs",
 	"module": "./dist/module.mjs",
 	"types": "./dist/types.d.ts",
-	"files": ["dist", "*.d.ts", "*.cjs", "*.mjs"],
+	"files": [
+		"dist",
+		"*.d.ts",
+		"*.cjs",
+		"*.mjs"
+	],
 	"scripts": {
 		"readme": "bun scripts/readme.ts",
 		"prebuild": "bun postinstall",

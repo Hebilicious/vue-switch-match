@@ -1,7 +1,7 @@
 {
 	"name": "@hebilicious/vue-switch-match",
 	"type": "module",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"author": {
 		"name": "Hebilicious",
 		"email": "xsh4k3@gmail.com",
@@ -26,7 +26,12 @@
 	"main": "./dist/index.cjs",
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",
-	"files": ["dist", "*.d.ts", "*.cjs", "*.mjs"],
+	"files": [
+		"dist",
+		"*.d.ts",
+		"*.cjs",
+		"*.mjs"
+	],
 	"scripts": {
 		"stub": "unbuild --stub",
 		"build": "unbuild"
