@@ -1,14 +1,14 @@
 {
 	"name": "@hebilicious/nuxt-switch-match",
 	"type": "module",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"author": {
 		"name": "Hebilicious",
 		"email": "xsh4k3@gmail.com",
 		"url": "https://twitter.com/its_hebilicious"
 	},
 	"license": "MIT",
-	"repository": "Hebilicious/nuxt-switch-match",
+	"repository": "Hebilicious/vue-switch-match",
 	"exports": {
 		".": {
 			"require": {
