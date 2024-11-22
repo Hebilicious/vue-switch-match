@@ -1,8 +1,14 @@
+[![CI](https://github.com/Hebilicious/vue-switch-match/actions/workflows/ci.yaml/badge.svg)](https://github.com/Hebilicious/vue-switch-match/actions/workflows/ci.yaml)
+[![npm version](https://badge.fury.io/js/@hebilicious%2Fvue-switch-match.svg)](https://badge.fury.io/js/@hebilicious%2Fvue-switch-match)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Vue Switch Match
 
 Pattern Matching Switch Match Component for Vue. Inspired by Solid.js
 
 ## Installation
+
+_For Nuxt, use the [Nuxt module](https://www.npmjs.com/package/@hebilicious/nuxt-switch-match) directly._
 
 ```bash
 pnpm i @hebilicious/vue-switch-match

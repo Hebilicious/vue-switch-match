@@ -8,6 +8,9 @@
 	"[javascript]": {
 		"editor.defaultFormatter": "dprint.dprint"
 	},
+	"[markdown]": {
+		"editor.defaultFormatter": "dprint.dprint"
+	},
 	"dprint.path": "./node_modules/.bin/dprint",
 	"typescript.tsdk": "node_modules/typescript/lib"
 }
