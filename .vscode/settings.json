@@ -5,6 +5,9 @@
 		"quickfix.biome": "explicit",
 		"source.organizeImports.biome": "explicit"
 	},
+	"[javascript]": {
+		"editor.defaultFormatter": "dprint.dprint"
+	},
 	"dprint.path": "./node_modules/.bin/dprint",
 	"typescript.tsdk": "node_modules/typescript/lib"
 }

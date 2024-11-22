@@ -2,15 +2,18 @@ name: Release
 
 on:
   push:
-    tags:
-      - "v*"
+    branches:
+      - main
 
+concurrency: ${{ github.workflow }}-${{ github.ref }}
 permissions:
   id-token: write
   contents: write
+  pull-requests: write
 
 jobs:
   release:
+    name: Release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
@@ -18,20 +21,14 @@ jobs:
           fetch-depth: 0
 
       - uses: ./.github/workflows/actions/install
+
+      - name: Create Release PR and publish to npm
+        id: changesets
+        uses: changesets/action@v1
         with:
-          install: nuxt-switch-match
-          
-      - run: bun x changelogithub
-        continue-on-error: false
+          # This expects you to have a script called release which does a build for your packages and calls changeset publish
+          publish: bun run publish:ci
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
-      - name: Build
-        run: bun run build
-
-      - name: Publish to NPM
-        run: bun run publish:ci
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
