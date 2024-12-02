@@ -1,15 +1,18 @@
 {
     "folders": [
       {
-        "path": "../package/nuxt-switch-match",
+        "path": "../packages/nuxt-switch-match",
+      },
+      {
+        "path": "../packages/vue-switch-match",
+      },
+      {
+        "path": "../playgrounds",
       },
       {
         "path": "..",
+        "name": "#root"
       },
-    ],
-    "settings": {
-      "typescript.tsdk": "../node_modules/typescript/lib",
-      "typescript.enablePromptUseWorkspaceTsdk": true
-    },
+    ]
   }
   

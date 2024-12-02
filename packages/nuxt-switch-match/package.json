@@ -35,9 +35,6 @@
 		"build": "rimraf dist && bun build:module",
 		"dev": "nuxi dev"
 	},
-	"peerDependencies": {
-		"@hebilicious/vue-switch-match": "workspace:^"
-	},
 	"dependencies": {
 		"@hebilicious/vue-switch-match": "workspace:^",
 		"@nuxt/kit": "^3.14.1592",
