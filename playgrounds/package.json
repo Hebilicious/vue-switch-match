@@ -4,13 +4,12 @@
 	"scripts": {
 		"build": "NITRO_PRESET=cloudflare_pages nuxt build",
 		"dev": "nuxt dev",
-		"generate": "nuxt generate",
-		"preview": "nuxt preview"
+		"prepare": "nuxi prepare"
 	},
 	"devDependencies": {
 		"@hebilicious/nuxt-switch-match": "workspace:^",
 		"@hebilicious/vue-switch-match": "workspace:^",
 		"@nuxt/devtools": "^1.6.1",
-		"nuxt": "^3.14.1592"
+		"nuxt": "^3.14"
 	}
 }
