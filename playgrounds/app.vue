@@ -9,9 +9,10 @@ const swap = () => {
 <template>
   <button @click="swap">Click Me !</button>
   <button @click="(state = 2)">Fallback</button>
-  <MySwitch>
-    <MyMatch :when="state === 0">Hello</MyMatch>
-    <MyMatch :when="state === 1">World</MyMatch>
-    <MyFallback>Bye</MyFallback>
-  </MySwitch>
+  <Switch>
+    <Match :when="state === 0">Hello</Match>
+    <Match :when="state === 1">World</Match>
+    <Match :when="state < 2">Never Match</Match>
+    <Fallback>Bye</Fallback>
+  </Switch>
 </template>

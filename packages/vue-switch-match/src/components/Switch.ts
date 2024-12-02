@@ -1,24 +1,23 @@
-import { computed, defineComponent } from "vue"
+import { type Component, computed, defineComponent } from "vue"
+import type { WhenProp } from "./Match"
 
 export const Switch = defineComponent({
 	name: "Switch",
 	setup(props, { slots }) {
 		const result = computed(() => {
 			const children = slots.default?.() || []
-			// biome-ignore lint/suspicious/noExplicitAny: <explanation>
-			const matchComponents = children.filter((child) => (child.type as any).name === "Match")
-			// biome-ignore lint/suspicious/noExplicitAny: <explanation>
-			const fallbackComponent = children.find((child) => (child.type as any).name === "Fallback")
+			const matchComponents = children.filter((c) => (c.type as Component).name === "Match")
+			const fallbackComponent = children.find((c) => (c.type as Component).name === "Fallback")
 
-			const matched = matchComponents.filter((matchComponent) => {
+			const matched = matchComponents.find((matchComponent) => {
 				const { when } = matchComponent.props as {
-					when: boolean | (() => boolean)
+					when: WhenProp
 				}
 				const condition = typeof when === "function" ? when() : when
 				return condition
 			})
 
-			if (matched.length > 0) return matched
+			if (matched) return matched
 
 			return fallbackComponent || null
 		})
