@@ -25,7 +25,7 @@
 		"@types/node": "^22.10.2",
 		"dprint": "^0.48.0",
 		"lage": "^2.12.6",
-		"lint-staged": "^15.2.11",
+		"lint-staged": "^15.3.0",
 		"rimraf": "^6.0.1",
 		"simple-git-hooks": "^2.11.1",
 		"taze": "^0.18.0",
@@ -35,9 +35,9 @@
 	"engines": {
 		"bun": "1.1.34",
 		"node": "22.12.0",
-		"pnpm": "9.15.1"
+		"pnpm": "9.15.2"
 	},
-	"packageManager": "pnpm@9.15.1",
+	"packageManager": "pnpm@9.15.2",
 	"simple-git-hooks": {
 		"pre-commit": "pnpx lint-staged"
 	},
