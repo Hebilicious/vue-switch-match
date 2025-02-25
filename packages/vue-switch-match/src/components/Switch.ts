@@ -3,6 +3,7 @@ import type { WhenProp } from "./Match"
 
 export const Switch = defineComponent({
 	name: "Switch",
+	inheritAttrs: false,
 	setup(props, { slots }) {
 		const result = computed(() => {
 			const children = slots.default?.() || []
