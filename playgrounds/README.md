@@ -1,4 +1,4 @@
-# AuthJS Nuxt
+# Vue Switch Match Nuxt Playground
 
 This is a simple example to demonstrate how to use the module.
 
