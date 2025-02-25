@@ -5,7 +5,7 @@ export const Match = defineComponent({
 	name: "Match",
 	props: {
 		when: {
-			validator: (value: WhenProp) => { 
+			validator: (value: WhenProp) => {
 				return typeof value === "function" || typeof value === "boolean"
 			},
 			required: true
