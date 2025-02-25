@@ -1,5 +1,13 @@
 # @hebilicious/nuxt-switch-match
 
+## 0.1.1
+
+### Patch Changes
+
+- a8d6076: Fix warnings and update dependencies
+- Updated dependencies [a8d6076]
+  - @hebilicious/vue-switch-match@0.1.1
+
 ## 0.1.0
 
 ### Minor Changes
