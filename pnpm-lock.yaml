@@ -24,8 +24,8 @@ importers:
         specifier: ^0.49.1
         version: 0.49.1
       lage:
-        specifier: ^2.14.5
-        version: 2.14.5
+        specifier: ^2.14.6
+        version: 2.14.6
       lint-staged:
         specifier: ^15.5.1
         version: 15.5.1
@@ -4465,8 +4465,8 @@ packages:
   kuler@2.0.0:
     resolution: {integrity: sha512-Xq9nH7KlWZmXAtodXDDRE7vs6DU1gTU8zYDHDiWLSip45Egwq3plLHzPn27NgvzL2r1LMPC1vdqh98sQxtqj4A==}
 
-  lage@2.14.5:
-    resolution: {integrity: sha512-3xxh9iFIeDHf19WLFxJxD2LAJo4fwIj0ghNDjna9irXKsrD72ykqfoHoaSZk7DQGoQTH3F7wIf2H+51Fi2GGRQ==}
+  lage@2.14.6:
+    resolution: {integrity: sha512-mc3fbrrroeEkrRYmp6t6VTlgI86657xY8ZDjZ0EGeLm0OcZYmalVnccbx4ZFNLvWhbCyE+2GBzKMluvSa4QCjg==}
     hasBin: true
 
   lambda-local@2.2.0:
@@ -11007,7 +11007,7 @@ snapshots:
 
   kuler@2.0.0: {}
 
-  lage@2.14.5:
+  lage@2.14.6:
     dependencies:
       glob-hasher: 1.4.2
     optionalDependencies:
