@@ -37,12 +37,12 @@
 	},
 	"dependencies": {
 		"@hebilicious/vue-switch-match": "workspace:^",
-		"@nuxt/kit": "^3.17.3",
+		"@nuxt/kit": "^3.17.4",
 		"defu": "^6.1.4"
 	},
 	"devDependencies": {
 		"@nuxt/module-builder": "^0.8.4",
-		"nuxt": "^3.17.3",
+		"nuxt": "^3.17.4",
 		"unbuild": "^3.5.0"
 	}
 }
