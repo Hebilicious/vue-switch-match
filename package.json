@@ -20,9 +20,9 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"@changesets/cli": "^2.29.4",
+		"@changesets/cli": "^2.29.5",
 		"@nuxt/test-utils": "^3.19.1",
-		"@types/node": "^22.15.31",
+		"@types/node": "^22.15.32",
 		"dprint": "^0.50.0",
 		"lage": "^2.14.6",
 		"lint-staged": "^16.1.2",
@@ -30,7 +30,7 @@
 		"simple-git-hooks": "^2.13.0",
 		"taze": "^19.1.0",
 		"typescript": "^5.8.3",
-		"vitest": "^3.2.3"
+		"vitest": "^3.2.4"
 	},
 	"engines": {
 		"bun": "1.1.34",
