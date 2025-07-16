@@ -9,6 +9,6 @@
 		"@hebilicious/nuxt-switch-match": "workspace:^",
 		"@hebilicious/vue-switch-match": "workspace:^",
 		"@nuxt/devtools": "^2.6.2",
-		"nuxt": "^3.17.7"
+		"nuxt": "^4.0.0"
 	}
 }
