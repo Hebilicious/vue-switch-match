@@ -43,6 +43,6 @@
 	"devDependencies": {
 		"@nuxt/module-builder": "^0.8.4",
 		"nuxt": "^4.0.3",
-		"unbuild": "^3.6.0"
+		"unbuild": "^3.6.1"
 	}
 }

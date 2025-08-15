@@ -35,6 +35,6 @@
 		"vue": "^3.5.18"
 	},
 	"devDependencies": {
-		"unbuild": "^3.6.0"
+		"unbuild": "^3.6.1"
 	}
 }
