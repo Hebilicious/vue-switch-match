@@ -19,16 +19,16 @@
 		"test:all": "bun run lint && bun run typecheck && bun run vitest run"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.2.2",
+		"@biomejs/biome": "^2.2.3",
 		"@changesets/cli": "^2.29.6",
 		"@nuxt/test-utils": "^3.19.2",
-		"@types/node": "^22.18.0",
+		"@types/node": "^22.18.1",
 		"dprint": "^0.50.1",
 		"lage": "^2.14.11",
 		"lint-staged": "^16.1.6",
 		"rimraf": "^6.0.1",
 		"simple-git-hooks": "^2.13.1",
-		"taze": "^19.4.0",
+		"taze": "^19.6.0",
 		"typescript": "^5.9.2",
 		"vitest": "^3.2.4"
 	},
