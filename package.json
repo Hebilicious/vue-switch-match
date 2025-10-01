@@ -22,14 +22,14 @@
 		"@biomejs/biome": "^2.2.4",
 		"@changesets/cli": "^2.29.7",
 		"@nuxt/test-utils": "^3.19.2",
-		"@types/node": "^22.18.7",
+		"@types/node": "^22.18.8",
 		"dprint": "^0.50.2",
 		"lage": "^2.14.13",
 		"lint-staged": "^16.2.3",
 		"rimraf": "^6.0.1",
 		"simple-git-hooks": "^2.13.1",
 		"taze": "^19.7.0",
-		"typescript": "^5.9.2",
+		"typescript": "^5.9.3",
 		"vitest": "^3.2.4"
 	},
 	"engines": {
