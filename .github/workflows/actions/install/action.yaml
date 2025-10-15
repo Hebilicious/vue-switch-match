@@ -30,7 +30,7 @@ runs:
         version: ${{ fromJson(env.PACKAGE_JSON).engines.pnpm || inputs.pnpm-version }} 
 
     - name: Use Node.js ${{ fromJson(env.PACKAGE_JSON).engines.node || inputs.node-version }}
-      uses: actions/setup-node@v5
+      uses: actions/setup-node@v6
       with:
         node-version: ${{ fromJson(env.PACKAGE_JSON).engines.node || inputs.node-version }}
         cache: pnpm
