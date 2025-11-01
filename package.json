@@ -26,11 +26,11 @@
 		"dprint": "^0.50.2",
 		"lage": "^2.14.15",
 		"lint-staged": "^16.2.6",
-		"rimraf": "^6.0.1",
+		"rimraf": "^6.1.0",
 		"simple-git-hooks": "^2.13.1",
-		"taze": "^19.8.1",
+		"taze": "^19.9.0",
 		"typescript": "^5.9.3",
-		"vitest": "^4.0.5"
+		"vitest": "^4.0.6"
 	},
 	"engines": {
 		"bun": "1.1.34",

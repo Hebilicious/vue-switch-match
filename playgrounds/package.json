@@ -8,7 +8,7 @@
 	"devDependencies": {
 		"@hebilicious/nuxt-switch-match": "workspace:^",
 		"@hebilicious/vue-switch-match": "workspace:^",
-		"@nuxt/devtools": "^3.0.0",
+		"@nuxt/devtools": "^3.0.1",
 		"nuxt": "^4.2.0"
 	}
 }
