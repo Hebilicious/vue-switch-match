@@ -19,9 +19,9 @@
 		"test:all": "bun run lint && bun run typecheck && bun run vitest run"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.3.10",
+		"@biomejs/biome": "^2.3.11",
 		"@changesets/cli": "^2.29.8",
-		"@nuxt/test-utils": "^3.21.0",
+		"@nuxt/test-utils": "^3.23.0",
 		"@types/node": "^24.10.4",
 		"dprint": "^0.51.1",
 		"lage": "^2.14.15",
