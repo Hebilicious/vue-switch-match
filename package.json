@@ -30,7 +30,7 @@
 		"simple-git-hooks": "^2.13.1",
 		"taze": "^19.9.2",
 		"typescript": "^5.9.3",
-		"vitest": "^4.0.17"
+		"vitest": "^4.0.18"
 	},
 	"engines": {
 		"bun": "1.1.34",
