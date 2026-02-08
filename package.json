@@ -21,7 +21,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "^2.3.14",
 		"@changesets/cli": "^2.29.8",
-		"@nuxt/test-utils": "^3.23.0",
+		"@nuxt/test-utils": "^4.0.0",
 		"@types/node": "^24.10.12",
 		"dprint": "^0.51.1",
 		"lage": "^2.14.17",
