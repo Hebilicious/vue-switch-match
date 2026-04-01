@@ -21,8 +21,8 @@ importers:
         specifier: ^24.12.0
         version: 24.12.0
       dprint:
-        specifier: ^0.53.1
-        version: 0.53.1
+        specifier: ^0.53.2
+        version: 0.53.2
       lage:
         specifier: ^2.15.3
         version: 2.15.3
@@ -60,8 +60,8 @@ importers:
         specifier: ^4.4.2
         version: 4.4.2(magicast@0.5.2)
       defu:
-        specifier: ^6.1.4
-        version: 6.1.4
+        specifier: ^6.1.6
+        version: 6.1.6
     devDependencies:
       '@nuxt/module-builder':
         specifier: ^0.8.4
@@ -618,65 +618,65 @@ packages:
       search-insights:
         optional: true
 
-  '@dprint/darwin-arm64@0.53.1':
-    resolution: {integrity: sha512-D3zbSv21LUU1PSYs3QJJMkPAxEl1iwK9oliSsQIBRvlPkHmPJtpsRXkTYI6VTKuSUIPu8TksPLmDNpRXkc0zYQ==}
+  '@dprint/darwin-arm64@0.53.2':
+    resolution: {integrity: sha512-ecKRF+mFE59layJPpX5AnYN7a9XNovX3f5QlPSdr+BmweoarOV2ieODyJklD5Tob9WiMv8jQyXYak5QH7fxByg==}
     cpu: [arm64]
     os: [darwin]
 
-  '@dprint/darwin-x64@0.53.1':
-    resolution: {integrity: sha512-Af5maD91paDEm1va8lomhoWvlxiZnpeanhZCPY/xPNk4ZWy22QfUf/7J/w2/8GHSYU/2gxi5K0BRD3gjCZuEJQ==}
+  '@dprint/darwin-x64@0.53.2':
+    resolution: {integrity: sha512-sHe7bsPU9BXnBPovjsq+98S1g64W7ZhyfGKMSVMTwP1BCL+IqOltfd5p7xTvAaRkL8cwRzqPYlj+kmCf24Qydw==}
     cpu: [x64]
     os: [darwin]
 
-  '@dprint/linux-arm64-glibc@0.53.1':
-    resolution: {integrity: sha512-xmZ8oyKX2zb1ZbJZVXN4y6IlzsDEH46iPj0w+bzlS0v7ggAQrZhZ2KmZUmxtKFIGHZuKx81Lj+gNmw/zf4tpyA==}
+  '@dprint/linux-arm64-glibc@0.53.2':
+    resolution: {integrity: sha512-K0aj5bLtPlSsTDAtLwEjwDGPIVpc8lgmvpLzf6IdASJn1kMkowPoZSCNUvmUUJTTmANscMugLsi9XGVbBzkE6Q==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@dprint/linux-arm64-musl@0.53.1':
-    resolution: {integrity: sha512-xIxUZxvgaWDQSpcVN9R1I6w+njgWuYVaTq+0Xt/oyMESaIpPsJTZP18qjQDDEXvXJ0cEbaoi3nuud1CvtJheXQ==}
+  '@dprint/linux-arm64-musl@0.53.2':
+    resolution: {integrity: sha512-209yb6BGMiohPuB12wgnodULEs3JC1epLaHyN5s2XpDU7rWi6WqWkzeSuuN2TTAbDz4Z51tqe5KJSRsF0yi+Dg==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@dprint/linux-loong64-glibc@0.53.1':
-    resolution: {integrity: sha512-tTvoHRsiOV9Ttx3bc7/i5KR98izFEBVkT0rM/HyFUMuTz6mMZhqGY9dZAN3cDwaLHAnxuSprag2PVaa6v5eL/g==}
+  '@dprint/linux-loong64-glibc@0.53.2':
+    resolution: {integrity: sha512-IngXJ6c7n/DYd2j1CssLHqxtGILMv0BEQZplx8kIYedGyVbzLSxJu7XpqgThnCuLQjh4elfRkT67Q8g7l//m0Q==}
     cpu: [loong64]
     os: [linux]
     libc: [glibc]
 
-  '@dprint/linux-loong64-musl@0.53.1':
-    resolution: {integrity: sha512-TW7ZWZvShuyMMmFm/bgCV5jldDUwZZQTLFYMqugIAIcCGE3Bs6m02CgpWiUBueudPk9Gb0nz17Y4PXAv3Sg3GQ==}
+  '@dprint/linux-loong64-musl@0.53.2':
+    resolution: {integrity: sha512-ExtcNOjSbXgpoWw5efAO00xYTOlEsEyz58v/HPJzEV5tfn9J7vozSVxTdXLDkTgg+USEQLaZ9qTnXxc1kbraiQ==}
     cpu: [loong64]
     os: [linux]
     libc: [musl]
 
-  '@dprint/linux-riscv64-glibc@0.53.1':
-    resolution: {integrity: sha512-Q8BDW+EWxzF4Es4KFOrJ8Y2bFL1nYcnwOX69kOo6bZgzQeRqr2WuEbFV70GClPy1xeBQLgKwAwYDmYjAxT75kQ==}
+  '@dprint/linux-riscv64-glibc@0.53.2':
+    resolution: {integrity: sha512-2UTqXMkIhyK7rYdpBY7tE3x1R36msWjX3lU3MdYM9HauldnsHJx2EhZofIYzHBICH8eziw/W7aY8HWo4oLdJ/A==}
     cpu: [riscv64]
     os: [linux]
     libc: [glibc]
 
-  '@dprint/linux-x64-glibc@0.53.1':
-    resolution: {integrity: sha512-3nrrZjsBObS6OF50yvn0flXbbeMaP8lJrrpGSJ8+B6qKySZJ9ugDTCGMgXyD4y1MzuTj45zBwudJKywhRZ7pRw==}
+  '@dprint/linux-x64-glibc@0.53.2':
+    resolution: {integrity: sha512-hO4O7d20IALUCFbFG2H7kvP5Di3/G8fqrMXzX9Fdps4ccM4Kg3Cr9LZ/G+mif4Q9WwwUnkOJ0oXBxeqJ8S65ng==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@dprint/linux-x64-musl@0.53.1':
-    resolution: {integrity: sha512-T2JZr/b8YZYyEnunZuXx7h09ngqTNx9sH2VaKwqRf4/CC7oR1RTAAyHaTFsL2/Ce+WTYb/LF/a1BkJEH2Q2LZw==}
+  '@dprint/linux-x64-musl@0.53.2':
+    resolution: {integrity: sha512-XHqYE5nFz1s5Z2J1E9j8JYHE4ISp5KCfaYT7fs4lW14G2B8U/CtutUGWzvP5aYRGfLc6CYGrWgKAQppn846vUQ==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@dprint/win32-arm64@0.53.1':
-    resolution: {integrity: sha512-FF2U+1Uke8/uQ0xwIJc75MtysAophXjFvhVbywGl+arjmChlpyb1KHB6l8eobjt/zXMyoNOOCm3mi8Zh9bQivg==}
+  '@dprint/win32-arm64@0.53.2':
+    resolution: {integrity: sha512-Z8N2iwhFN91wK0SlR+oGHGF8rrwOw7BiZTAKwR8E7Fr2lKSTsjbRv3Nr1znk2pHkmRyZ1/6PwzTiVF5sSZcIXQ==}
     cpu: [arm64]
     os: [win32]
 
-  '@dprint/win32-x64@0.53.1':
-    resolution: {integrity: sha512-KlTR+gv+UX1d4X1+PBV9tZ6NQRkt/KspyUjbM/5gcIKIcFHVehds3iQWjT5G46ExEvXpGd0hZPMmv7uHqynbyw==}
+  '@dprint/win32-x64@0.53.2':
+    resolution: {integrity: sha512-xdOOm4ZG9pqKdnVvgFMp8/c9Ylkt2LcTFqjmxF1CoCZNNYGMUrH60YQl/M9R9wJXSSQOv6K+7Ub+hOWcIlxIjw==}
     cpu: [x64]
     os: [win32]
 
@@ -4743,8 +4743,8 @@ packages:
     resolution: {integrity: sha512-N+MeXYoqr3pOgn8xfyRPREN7gHakLYjhsHhWGT3fWAiL4IkAt0iDw14QiiEm2bE30c5XX5q0FtAA3CK5f9/BUg==}
     engines: {node: '>=12'}
 
-  defu@6.1.4:
-    resolution: {integrity: sha512-mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==}
+  defu@6.1.6:
+    resolution: {integrity: sha512-f8mefEW4WIVg4LckePx3mALjQSPQgFlg9U8yaPdlsbdYcHQyj9n2zL2LJEA52smeYxOvmd/nB7TpMtHGMTHcug==}
 
   delegates@1.0.0:
     resolution: {integrity: sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==}
@@ -4864,8 +4864,8 @@ packages:
     resolution: {integrity: sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==}
     engines: {node: '>=12'}
 
-  dprint@0.53.1:
-    resolution: {integrity: sha512-NeVcviyC4NEBOZc8l4mhmtpSgzZHEXnIZZkRp3kk/12LvZQgDmR71vktH2PxUdXiyEVcvlqE9V3WUqG6DoVdyA==}
+  dprint@0.53.2:
+    resolution: {integrity: sha512-3uF+X66vm3UmDG5tbBKUAyetc/FsBn+2fswfVzFlbrIlE2l0BgwRLEssYqW/o93lYn6A39i3lP2+wHA4B+usDg==}
     hasBin: true
 
   dunder-proto@1.0.1:
@@ -9210,37 +9210,37 @@ snapshots:
     transitivePeerDependencies:
       - '@algolia/client-search'
 
-  '@dprint/darwin-arm64@0.53.1':
+  '@dprint/darwin-arm64@0.53.2':
     optional: true
 
-  '@dprint/darwin-x64@0.53.1':
+  '@dprint/darwin-x64@0.53.2':
     optional: true
 
-  '@dprint/linux-arm64-glibc@0.53.1':
+  '@dprint/linux-arm64-glibc@0.53.2':
     optional: true
 
-  '@dprint/linux-arm64-musl@0.53.1':
+  '@dprint/linux-arm64-musl@0.53.2':
     optional: true
 
-  '@dprint/linux-loong64-glibc@0.53.1':
+  '@dprint/linux-loong64-glibc@0.53.2':
     optional: true
 
-  '@dprint/linux-loong64-musl@0.53.1':
+  '@dprint/linux-loong64-musl@0.53.2':
     optional: true
 
-  '@dprint/linux-riscv64-glibc@0.53.1':
+  '@dprint/linux-riscv64-glibc@0.53.2':
     optional: true
 
-  '@dprint/linux-x64-glibc@0.53.1':
+  '@dprint/linux-x64-glibc@0.53.2':
     optional: true
 
-  '@dprint/linux-x64-musl@0.53.1':
+  '@dprint/linux-x64-musl@0.53.2':
     optional: true
 
-  '@dprint/win32-arm64@0.53.1':
+  '@dprint/win32-arm64@0.53.2':
     optional: true
 
-  '@dprint/win32-x64@0.53.1':
+  '@dprint/win32-x64@0.53.2':
     optional: true
 
   '@dxup/nuxt@0.4.0(magicast@0.5.2)(typescript@6.0.2)':
@@ -10143,7 +10143,7 @@ snapshots:
       citty: 0.1.6
       clipboardy: 4.0.0
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       fuse.js: 7.1.0
       giget: 2.0.0
       h3: 1.15.5
@@ -10174,7 +10174,7 @@ snapshots:
       confbox: 0.2.4
       consola: 3.4.2
       debug: 4.4.3
-      defu: 6.1.4
+      defu: 6.1.6
       exsolve: 1.0.8
       fuse.js: 7.1.0
       fzf: 0.5.2
@@ -10398,7 +10398,7 @@ snapshots:
     dependencies:
       c12: 3.3.3(magicast@0.3.5)
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
       errx: 0.1.0
       exsolve: 1.0.8
@@ -10425,7 +10425,7 @@ snapshots:
     dependencies:
       c12: 3.3.3(magicast@0.3.5)
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
       errx: 0.1.0
       exsolve: 1.0.8
@@ -10451,7 +10451,7 @@ snapshots:
     dependencies:
       c12: 3.3.3(magicast@0.5.2)
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
       errx: 0.1.0
       exsolve: 1.0.8
@@ -10477,7 +10477,7 @@ snapshots:
     dependencies:
       c12: 3.3.3(magicast@0.5.2)
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
       errx: 0.1.0
       exsolve: 1.0.8
@@ -10503,7 +10503,7 @@ snapshots:
       '@nuxt/kit': 4.4.2(magicast@0.5.2)
       citty: 0.1.6
       consola: 3.2.3
-      defu: 6.1.4
+      defu: 6.1.6
       magic-regexp: 0.8.0
       mlly: 1.7.3
       nuxi: 3.17.2
@@ -10525,7 +10525,7 @@ snapshots:
       '@unhead/vue': 2.1.12(vue@3.5.31(typescript@6.0.2))
       '@vue/shared': 3.5.30
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
       devalue: 5.6.4
       errx: 0.1.0
@@ -10591,7 +10591,7 @@ snapshots:
       '@unhead/vue': 2.1.12(vue@3.5.31(typescript@6.0.2))
       '@vue/shared': 3.5.30
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
       devalue: 5.6.4
       errx: 0.1.0
@@ -10653,7 +10653,7 @@ snapshots:
     dependencies:
       '@vue/shared': 3.5.30
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       pathe: 2.0.3
       std-env: 3.10.0
 
@@ -10661,14 +10661,14 @@ snapshots:
     dependencies:
       '@vue/shared': 3.5.30
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       pathe: 2.0.3
       std-env: 3.10.0
 
   '@nuxt/schema@4.4.2':
     dependencies:
       '@vue/shared': 3.5.30
-      defu: 6.1.4
+      defu: 6.1.6
       pathe: 2.0.3
       pkg-types: 2.3.0
       std-env: 4.0.0
@@ -10706,7 +10706,7 @@ snapshots:
       '@nuxt/kit': 3.21.1(magicast@0.5.2)
       c12: 3.3.3(magicast@0.5.2)
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
       estree-walker: 3.0.3
       exsolve: 1.0.8
@@ -10747,7 +10747,7 @@ snapshots:
       autoprefixer: 10.4.21(postcss@8.5.3)
       consola: 3.4.2
       cssnano: 7.0.7(postcss@8.5.3)
-      defu: 6.1.4
+      defu: 6.1.6
       esbuild: 0.25.9
       escape-string-regexp: 5.0.0
       exsolve: 1.0.8
@@ -10808,7 +10808,7 @@ snapshots:
       autoprefixer: 10.4.27(postcss@8.5.8)
       consola: 3.4.2
       cssnano: 7.1.3(postcss@8.5.8)
-      defu: 6.1.4
+      defu: 6.1.6
       escape-string-regexp: 5.0.0
       exsolve: 1.0.8
       get-port-please: 3.2.0
@@ -10868,7 +10868,7 @@ snapshots:
       autoprefixer: 10.4.27(postcss@8.5.8)
       consola: 3.4.2
       cssnano: 7.1.3(postcss@8.5.8)
-      defu: 6.1.4
+      defu: 6.1.6
       escape-string-regexp: 5.0.0
       exsolve: 1.0.8
       get-port-please: 3.2.0
@@ -12783,7 +12783,7 @@ snapshots:
     dependencies:
       chokidar: 4.0.3
       confbox: 0.2.2
-      defu: 6.1.4
+      defu: 6.1.6
       dotenv: 16.5.0
       exsolve: 1.0.8
       giget: 2.0.0
@@ -12800,7 +12800,7 @@ snapshots:
     dependencies:
       chokidar: 5.0.0
       confbox: 0.2.4
-      defu: 6.1.4
+      defu: 6.1.6
       dotenv: 17.2.3
       exsolve: 1.0.8
       giget: 2.0.0
@@ -12817,7 +12817,7 @@ snapshots:
     dependencies:
       chokidar: 5.0.0
       confbox: 0.2.4
-      defu: 6.1.4
+      defu: 6.1.6
       dotenv: 17.2.3
       exsolve: 1.0.8
       giget: 2.0.0
@@ -13283,7 +13283,7 @@ snapshots:
 
   define-lazy-prop@3.0.0: {}
 
-  defu@6.1.4: {}
+  defu@6.1.6: {}
 
   delegates@1.0.0: {}
 
@@ -13392,19 +13392,19 @@ snapshots:
 
   dotenv@17.2.3: {}
 
-  dprint@0.53.1:
+  dprint@0.53.2:
     optionalDependencies:
-      '@dprint/darwin-arm64': 0.53.1
-      '@dprint/darwin-x64': 0.53.1
-      '@dprint/linux-arm64-glibc': 0.53.1
-      '@dprint/linux-arm64-musl': 0.53.1
-      '@dprint/linux-loong64-glibc': 0.53.1
-      '@dprint/linux-loong64-musl': 0.53.1
-      '@dprint/linux-riscv64-glibc': 0.53.1
-      '@dprint/linux-x64-glibc': 0.53.1
-      '@dprint/linux-x64-musl': 0.53.1
-      '@dprint/win32-arm64': 0.53.1
-      '@dprint/win32-x64': 0.53.1
+      '@dprint/darwin-arm64': 0.53.2
+      '@dprint/darwin-x64': 0.53.2
+      '@dprint/linux-arm64-glibc': 0.53.2
+      '@dprint/linux-arm64-musl': 0.53.2
+      '@dprint/linux-loong64-glibc': 0.53.2
+      '@dprint/linux-loong64-musl': 0.53.2
+      '@dprint/linux-riscv64-glibc': 0.53.2
+      '@dprint/linux-x64-glibc': 0.53.2
+      '@dprint/linux-x64-musl': 0.53.2
+      '@dprint/win32-arm64': 0.53.2
+      '@dprint/win32-x64': 0.53.2
 
   dunder-proto@1.0.1:
     dependencies:
@@ -13961,7 +13961,7 @@ snapshots:
     dependencies:
       citty: 0.1.6
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       node-fetch-native: 1.6.7
       nypm: 0.6.5
       pathe: 2.0.3
@@ -14093,7 +14093,7 @@ snapshots:
     dependencies:
       cookie-es: 1.2.2
       crossws: 0.3.5
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
       iron-webcrypto: 1.2.1
       node-mock-http: 1.0.4
@@ -14105,7 +14105,7 @@ snapshots:
     dependencies:
       cookie-es: 1.2.2
       crossws: 0.3.5
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
       iron-webcrypto: 1.2.1
       node-mock-http: 1.0.4
@@ -14117,7 +14117,7 @@ snapshots:
     dependencies:
       cookie-es: 1.2.2
       crossws: 0.3.5
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
       iron-webcrypto: 1.2.1
       node-mock-http: 1.0.4
@@ -14453,7 +14453,7 @@ snapshots:
       clipboardy: 4.0.0
       consola: 3.4.2
       crossws: 0.3.5
-      defu: 6.1.4
+      defu: 6.1.6
       get-port-please: 3.2.0
       h3: 1.15.5
       http-shutdown: 1.2.2
@@ -14713,7 +14713,7 @@ snapshots:
       autoprefixer: 10.4.24(postcss@8.5.8)
       citty: 0.1.6
       cssnano: 7.1.2(postcss@8.5.8)
-      defu: 6.1.4
+      defu: 6.1.6
       esbuild: 0.24.2
       jiti: 1.21.7
       mlly: 1.8.1
@@ -14731,7 +14731,7 @@ snapshots:
       autoprefixer: 10.4.21(postcss@8.5.8)
       citty: 0.1.6
       cssnano: 7.1.0(postcss@8.5.8)
-      defu: 6.1.4
+      defu: 6.1.6
       esbuild: 0.25.9
       jiti: 1.21.7
       mlly: 1.8.1
@@ -14750,7 +14750,7 @@ snapshots:
       autoprefixer: 10.4.21(postcss@8.5.8)
       citty: 0.1.6
       cssnano: 7.1.0(postcss@8.5.8)
-      defu: 6.1.4
+      defu: 6.1.6
       esbuild: 0.25.9
       jiti: 1.21.7
       mlly: 1.8.1
@@ -14849,7 +14849,7 @@ snapshots:
       croner: 9.0.0
       crossws: 0.3.5
       db0: 0.3.2
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
       dot-prop: 9.0.0
       esbuild: 0.25.9
@@ -14949,7 +14949,7 @@ snapshots:
       croner: 9.1.0
       crossws: 0.3.5
       db0: 0.3.4
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
       dot-prop: 10.1.0
       esbuild: 0.27.3
@@ -15117,7 +15117,7 @@ snapshots:
       compatx: 0.2.0
       consola: 3.4.2
       cookie-es: 2.0.0
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
       devalue: 5.1.1
       errx: 0.1.0
@@ -15239,7 +15239,7 @@ snapshots:
       compatx: 0.2.0
       consola: 3.4.2
       cookie-es: 2.0.0
-      defu: 6.1.4
+      defu: 6.1.6
       devalue: 5.6.4
       errx: 0.1.0
       escape-string-regexp: 5.0.0
@@ -15366,7 +15366,7 @@ snapshots:
       compatx: 0.2.0
       consola: 3.4.2
       cookie-es: 2.0.0
-      defu: 6.1.4
+      defu: 6.1.6
       devalue: 5.6.4
       errx: 0.1.0
       escape-string-regexp: 5.0.0
@@ -16321,12 +16321,12 @@ snapshots:
 
   rc9@2.1.2:
     dependencies:
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
 
   rc9@3.0.0:
     dependencies:
-      defu: 6.1.4
+      defu: 6.1.6
       destr: 2.0.5
 
   read-package-up@11.0.0:
@@ -16689,7 +16689,7 @@ snapshots:
 
   serve-placeholder@2.0.2:
     dependencies:
-      defu: 6.1.4
+      defu: 6.1.6
 
   serve-static@2.2.0:
     dependencies:
@@ -17155,7 +17155,7 @@ snapshots:
       chalk: 5.3.0
       citty: 0.1.6
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       esbuild: 0.19.12
       globby: 13.2.2
       hookable: 5.5.3
@@ -17187,7 +17187,7 @@ snapshots:
       '@rollup/pluginutils': 5.2.0(rollup@4.46.2)
       citty: 0.1.6
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       esbuild: 0.25.9
       fix-dts-default-cjs-exports: 1.0.1
       hookable: 5.5.3
@@ -17221,7 +17221,7 @@ snapshots:
       '@rollup/pluginutils': 5.2.0(rollup@4.46.2)
       citty: 0.1.6
       consola: 3.4.2
-      defu: 6.1.4
+      defu: 6.1.6
       esbuild: 0.25.9
       fix-dts-default-cjs-exports: 1.0.1
       hookable: 5.5.3
@@ -17253,7 +17253,7 @@ snapshots:
   unconfig@7.5.0:
     dependencies:
       '@quansync/fs': 1.0.0
-      defu: 6.1.4
+      defu: 6.1.6
       jiti: 2.6.1
       quansync: 1.0.0
       unconfig-core: 7.5.0
@@ -17278,7 +17278,7 @@ snapshots:
 
   unenv@2.0.0-rc.17:
     dependencies:
-      defu: 6.1.4
+      defu: 6.1.6
       exsolve: 1.0.8
       ohash: 2.0.11
       pathe: 2.0.3
@@ -17499,7 +17499,7 @@ snapshots:
       '@babel/core': 7.26.0
       '@babel/standalone': 7.26.2
       '@babel/types': 7.29.0
-      defu: 6.1.4
+      defu: 6.1.6
       jiti: 2.6.1
       mri: 1.2.0
       scule: 1.3.0
@@ -17509,7 +17509,7 @@ snapshots:
   untyped@2.0.0:
     dependencies:
       citty: 0.1.6
-      defu: 6.1.4
+      defu: 6.1.6
       jiti: 2.6.1
       knitwork: 1.3.0
       scule: 1.3.0
