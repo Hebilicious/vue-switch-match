@@ -25,7 +25,7 @@ runs:
         bun-version: ${{ fromJson(env.PACKAGE_JSON).engines.bun || inputs.bun-version }} 
 
     - name: Use Pnpm ${{ fromJson(env.PACKAGE_JSON).engines.pnpm || inputs.pnpm-version }} 
-      uses: pnpm/action-setup@v3
+      uses: pnpm/action-setup@v6
       with:
         version: ${{ fromJson(env.PACKAGE_JSON).engines.pnpm || inputs.pnpm-version }} 
 
