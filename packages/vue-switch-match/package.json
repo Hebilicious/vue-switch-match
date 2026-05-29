@@ -32,7 +32,7 @@
 		"build": "unbuild"
 	},
 	"dependencies": {
-		"vue": "^3.5.34"
+		"vue": "^3.5.35"
 	},
 	"devDependencies": {
 		"unbuild": "^3.6.1"
