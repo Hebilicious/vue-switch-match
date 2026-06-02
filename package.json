@@ -35,9 +35,9 @@
 	"engines": {
 		"bun": "1.1.34",
 		"node": "24.16.0",
-		"pnpm": "10.34.1"
+		"pnpm": "11.5.1"
 	},
-	"packageManager": "pnpm@10.34.1",
+	"packageManager": "pnpm@11.5.1",
 	"simple-git-hooks": {
 		"pre-commit": "pnpx lint-staged"
 	},
