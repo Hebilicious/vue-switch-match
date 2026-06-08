@@ -22,7 +22,7 @@
 		"@biomejs/biome": "^2.4.16",
 		"@changesets/cli": "^2.31.0",
 		"@nuxt/test-utils": "^4.0.3",
-		"@types/node": "^24.12.4",
+		"@types/node": "^24.13.1",
 		"dprint": "^0.54.0",
 		"lage": "^2.15.12",
 		"lint-staged": "^17.0.7",
