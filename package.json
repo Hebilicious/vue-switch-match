@@ -19,22 +19,22 @@
 		"test:all": "bun run lint && bun run typecheck && bun run vitest run"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.5.6",
+		"@biomejs/biome": "^2.5.7",
 		"@changesets/cli": "^2.31.1",
 		"@nuxt/test-utils": "^4.1.0",
 		"@types/node": "^24.13.3",
 		"dprint": "^0.55.2",
-		"lage": "^2.15.17",
+		"lage": "^2.16.0",
 		"lint-staged": "^17.3.0",
 		"rimraf": "^6.1.3",
 		"simple-git-hooks": "^2.13.1",
-		"taze": "^19.16.0",
+		"taze": "^19.17.2",
 		"typescript": "^6.0.3",
 		"vitest": "^4.1.10"
 	},
 	"engines": {
 		"bun": "1.1.34",
-		"node": "24.18.1",
+		"node": "24.19.0",
 		"pnpm": "10.34.5"
 	},
 	"packageManager": "pnpm@10.34.5",
