@@ -28,7 +28,7 @@
 		"lint-staged": "^17.3.0",
 		"rimraf": "^6.1.3",
 		"simple-git-hooks": "^2.13.1",
-		"taze": "^19.17.2",
+		"taze": "^20.0.0",
 		"typescript": "^6.0.3",
 		"vitest": "^4.1.10"
 	},
