@@ -23,7 +23,7 @@
 		"@changesets/cli": "^3.0.3",
 		"@nuxt/test-utils": "^4.3.2",
 		"@types/node": "^24.19.0",
-		"dprint": "^0.57.4",
+		"dprint": "^0.58.0",
 		"lage": "^2.17.0",
 		"lint-staged": "^17.6.0",
 		"rimraf": "^6.1.3",
